@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px; /*เพิ่มระยะห่างจากขอบหน้าจอ*/
+  }
+  
+  h1 {
+    color: #02228b;
+  }
+  
+  p {
+    color: #2958f1;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: #af39f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #6e2797;
+  }
+  
+  .low {
+    background-color: #ffcccb;
+    color: #ff0000;
+  }
+  
+  .high {
+    background-color: #ffeb99;
+    color: #ffa500;
+  }
+  
+  .correct {
+    background-color: #b0ddba;
+    color: #28a745;
+  }
+  
+  #output {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px; /*เพิ่มมุมโค้ง*/
+    font-size: 20px;
+  }
+  
+  .successImage {
+    display: block;
+    margin: 20px auto;
+  }
+  
